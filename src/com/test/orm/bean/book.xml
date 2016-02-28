@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="com.test.orm.bean.Book" table="Book">
+	<Id name ="bookId" column="bookId"/>
+	<property name="bookName" column="bookName"/>
+	<property name="author" column="author"/>
+	<property name="publisher" column="publisher"/>
+	<manytoone name="style" class="com.test.orm.bean.Style">
+		<column name="styleId"/>
+	</manytoone>
+</class>
