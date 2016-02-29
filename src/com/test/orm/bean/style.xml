@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class name="com.test.orm.bean.Book" table="Book">
+<class name="com.test.orm.bean.Style" table="Book">
 	<Id name ="styleId" column="styleId"/>
 	<property name="style" column="style"/>
 	<onetomany name="booklist" class="com.test.orm.bean.Book">
